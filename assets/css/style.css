@@ -1,0 +1,139 @@
+body {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/light-background-patterns-for-websites-7.jpg");
+
+}
+
+p {
+    color: #777777;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    float: left;
+    width: 600px;
+    padding-left: 20px;
+}
+
+h1 {
+    background-color: #ffffff;
+    height: 30px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    border-bottom-style: inset;
+    border-bottom: #777777, 5px;
+    
+    
+}
+
+.link {
+    float: right;
+    font-size: 20px;
+    color:#777777;
+    padding-right: 10px;
+    padding-left: 10px;    
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    border-bottom-style: inset;
+    border-bottom: #777777, 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding-top: 5px;
+    }
+
+#About {
+    padding-right: 250px;
+    
+}
+
+#Portfolio {
+    border-right-style: inset;
+    border-right: #777777, 5px;
+}
+
+#Contact {
+    border-right-style: inset;
+    border-right: #777777, 5px;
+}
+
+.Picture {
+    float: left;
+    padding-left: 30px;
+}
+
+div {
+    background-color: #ffffff;
+    height: 500px;
+    margin-left: 17%;
+    margin-right: 10%;
+    width: 960px;
+    
+    
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    background-color: #616263;
+    width: 100%;
+    height: 40px;
+    
+       
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+
+}
+
+#name {
+    width: 300px;
+    height: 30px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    float:left;
+}
+
+#paragraph {
+font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #paragraph {
+        font-size: 12px;
+        width: 500px;
+            }
+
+    .main {
+        width: 600px;
+        height: 650px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #paragraph {
+        width: 300px;
+            }
+    
+    img {
+        height: 350px;
+        width: 350px;
+    }
+}
